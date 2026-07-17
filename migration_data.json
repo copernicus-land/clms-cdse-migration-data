@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-17T04:12:16.364462Z",
+  "scraped_at": "2026-07-17T04:31:43.691593Z",
   "version": 3,
   "portfolio": {
     "total_datasets": 250,
@@ -7,7 +7,7 @@
   },
   "cdse": {
     "total_dataset_ids": 143,
-    "total_products_odata": 8212277,
+    "total_products_odata": 8212771,
     "total_stac_collections": 219,
     "total_openeo_collections": 63,
     "product_type_count": 30
@@ -35,6 +35,7 @@
       "url": "https://land.copernicus.eu/en/products/clc-backbone/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "CLCplus Backbone 2021 (raster 10 m), Europe, 3-yearly",
         "CLCplus Backbone 2018 (raster 10 m), Europe, 3-yearly",
@@ -61,6 +62,12 @@
       ],
       "cdse_dataset_ids": [
         "clms_clcplus_lulucf-instance_europe_100m_yearly_v1"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "clms_clcplus_lulucf-instance_europe_100m_yearly_v1",
+          "component": "Pan-European"
+        }
       ],
       "lp_datasets": [
         "CLCplus LULUCF Instance 2018-present (raster 100 m), Europe, yearly"
@@ -92,6 +99,7 @@
       "url": "https://land.copernicus.eu/en/products/corine-land-cover/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "CORINE Land Cover 2018 (vector/raster 100 m), Europe, 6-yearly",
         "CORINE Land Cover 2012 (vector/raster 100 m), Europe, 6-yearly",
@@ -120,6 +128,7 @@
       "url": "https://land.copernicus.eu/en/products/coastal-zones/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "Coastal Zones Land Cover/Land Use 2018 (vector), Europe, 6-yearly",
         "Coastal Zones Land Cover/Land Use 2012 (vector), Europe, 6-yearly",
@@ -167,6 +176,96 @@
         "clms_vlcc_secondary-crop-duration_europe_10m_yearly_v1",
         "clms_vlcc_secondary-crop-emergence_europe_10m_yearly_v1",
         "clms_vlcc_secondary-crop-types_europe_10m_yearly_v1"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "clms_vlcc_bare-soil-after-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_bare-soil-after_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_bare-soil-before-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_bare-soil-before_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_crop-types-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_crop-types_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_cropping-seasons-types_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_cropping-seasons_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_fallow-land-duration-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_fallow-land-duration_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_fallow-land-presence-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_fallow-land-presence_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_main-crop-duration-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_main-crop-duration_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_main-crop-emergence-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_main-crop-emergence_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_main-crop-harvest-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_main-crop-harvest_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_secondary-crop-duration-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_secondary-crop-duration_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_secondary-crop-emergence_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_secondary-crop-types_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        }
       ],
       "lp_datasets": [
         "Main Crop Duration 2017-present (raster 10 m), Europe, yearly",
@@ -405,6 +504,20 @@
         "lcm_global_10m_yearly_v1",
         "tcd_pantropical_10m_yearly_v1"
       ],
+      "cdse_datasets": [
+        {
+          "id": "lc_global_100m_yearly_v3",
+          "component": "Global"
+        },
+        {
+          "id": "lcm_global_10m_yearly_v1",
+          "component": "Global"
+        },
+        {
+          "id": "tcd_pantropical_10m_yearly_v1",
+          "component": "Global"
+        }
+      ],
       "lp_datasets": [
         "Land Cover 2020 (raster 10 m), global, annual - version 1",
         "Tree Cover Density 2020 (raster 10 m), pantropical, annual - version 1",
@@ -455,6 +568,7 @@
       "url": "https://land.copernicus.eu/en/products/european-ground-motion-service/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "European Ground Motion Service: Basic 2016-present (vector), Europe, yearly",
         "European Ground Motion Service: GNSS model (vector), Europe, 2-yearly",
@@ -478,6 +592,7 @@
       "url": "https://land.copernicus.eu/en/products/eu-hydro/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "EU-Hydro River Network Database 2006-2012 (vector), Europe"
       ],
@@ -498,6 +613,7 @@
       "url": "https://land.copernicus.eu/en/products/european-image-mosaic/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "Very High Resolution Image Mosaic 2021 True Colour (raster 2 m), Europe",
         "Very High Resolution Image Mosaic 2018 True Colour (raster 2 m), Europe",
@@ -534,6 +650,16 @@
       "cdse_dataset_ids": [
         "eta_global_300m_10daily_v1",
         "hf_global_300m_daily_v1"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "eta_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "hf_global_300m_daily_v1",
+          "component": "Global"
+        }
       ],
       "lp_datasets": [
         "Evapotranspiration 2025-present (raster 300 m), global, 10-daily – version 1",
@@ -592,6 +718,60 @@
         "clms_vlcc_tree-cover-density_europe_10m_yearly_v1",
         "clms_vlcc_tree-cover-presence-change-confidence-layer_europe_20m_3yearly_v1",
         "clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "clms_vlcc_broadleaved-cover-density_europe_100m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_coniferous-cover-density_europe_100m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_dominant-leaf-type-change_europe_20m_3yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_dominant-leaf-type-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_dominant-leaf-type_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_forest-additional-support-layer_europe_10m_3yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_forest-type_europe_100m_3yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_forest-type_europe_10m_3yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_tree-cover-density-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_tree-cover-density_europe_100m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_tree-cover-density_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_tree-cover-presence-change-confidence-layer_europe_20m_3yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1",
+          "component": "Pan-European"
+        }
       ],
       "lp_datasets": [
         "Dominant Leaf Type 2018-present (raster 10 m), Europe, yearly",
@@ -763,6 +943,48 @@
         "clms_vlcc_herbaceous-cover_europe_10m_yearly_v1",
         "clms_vlcc_ploughing-indicator_europe_10m_yearly_v1"
       ],
+      "cdse_datasets": [
+        {
+          "id": "clms_vlcc_grassland-change-confidence-layer_europe_20m_3yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_grassland-change_europe_20m_3yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_grassland-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_grassland-mowing-dates_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_grassland-mowing-events-confidence-layer_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_grassland-mowing-events_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_grassland_europe_100m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_grassland_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_herbaceous-cover_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_vlcc_ploughing-indicator_europe_10m_yearly_v1",
+          "component": "Pan-European"
+        }
+      ],
       "lp_datasets": [
         "Grassland Mowing Dates 2017-present (raster 10 m), Europe, yearly – 4 layers",
         "Ploughing Indicator 2017-present (raster 10 m), Europe, yearly",
@@ -882,6 +1104,7 @@
       "url": "https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "Imperviousness Change Classified 2018-2021 (raster 20 m), Europe, 3-yearly",
         "Imperviousness Change 2021-2024 (raster 20 m, 100 m), Europe, 3-yearly",
@@ -927,6 +1150,7 @@
       "url": "https://land.copernicus.eu/en/products/lclcc-hot-spots/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "Reference Land Cover (vector), Hot Spots globally",
         "Land Cover Change (vector), Hot Spots globally",
@@ -967,6 +1191,56 @@
         "lswt-nrt_global_1km_10daily_v1",
         "lswt-offline_global_1km_10daily_v1",
         "toc_global_300m_daily_v2"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "lst-daily-cycle_global_3km_10daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "lst-daily-cycle_global_5km_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lst-daily-cycle_global_5km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lst-tci_global_3km_10daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "lst-tci_global_5km_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lst-tci_global_5km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lst_global_3km_hourly_v3",
+          "component": "Global"
+        },
+        {
+          "id": "lst_global_5km_hourly_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lst_global_5km_hourly_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lswt-nrt_global_1km_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lswt-offline_global_1km_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "toc_global_300m_daily_v2",
+          "component": "Global"
+        }
       ],
       "lp_datasets": [
         "Land Surface Temperature 2018-present (raster 3km), global, hourly – version 3",
@@ -1108,6 +1382,7 @@
       "url": "https://land.copernicus.eu/en/products/n2k/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "N2K Land Cover/Land Use 2018 (vector), Europe, 6-yearly",
         "N2K Land Cover/Land Use 2012 (vector), Europe, 6-yearly",
@@ -1132,6 +1407,7 @@
       "url": "https://land.copernicus.eu/en/products/riparian-zones/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "Riparian Zones Land Cover/Land Use 2018 (vector), Europe, 6-yearly",
         "Riparian Zones Land Cover/Land Use 2012 (vector), Europe, 6-yearly",
@@ -1154,6 +1430,7 @@
       "url": "https://land.copernicus.eu/en/products/high-resolution-layer-small-landscape-features/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "Small Woody Features 2021 (vector/raster 5 m and 100 m), Europe, 3-yearly",
         "Woody Vegetation Layer 2021 (raster 5 m), Europe, 3-yearly",
@@ -1165,7 +1442,7 @@
     {
       "name": "Snow",
       "category": "Bio-geophysical Variables",
-      "component": "Pan-European",
+      "component": "Global",
       "total": 11,
       "on_cdse": 11,
       "pct": 100,
@@ -1192,6 +1469,52 @@
         "sce_northernhemisphere_1km_daily_v1",
         "swe_northernhemisphere_5km_daily_v1",
         "swe_northernhemisphere_5km_daily_v2"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_gap-filled-fractional-snow-cover_europe_utm_60m_daily_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2",
+          "component": "Pan-European"
+        },
+        {
+          "id": "sce_europe_500m_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "sce_global_1km_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "sce_northernhemisphere_1km_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "swe_northernhemisphere_5km_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "swe_northernhemisphere_5km_daily_v2",
+          "component": "Global"
+        }
       ],
       "lp_datasets": [
         "Snow Cover Extent 2025-present (raster 1 km), global, daily – version 1",
@@ -1337,6 +1660,48 @@
         "swi_global_12.5km_daily_v3",
         "swi_global_12.5km_daily_v4"
       ],
+      "cdse_datasets": [
+        {
+          "id": "ssm_europe_1km_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "swi-static_global_12.5km_daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "swi-timeseries_global_12.5km_daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "swi-timeseries_global_12.5km_daily_v4",
+          "component": "Global"
+        },
+        {
+          "id": "swi_europe_1km_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "swi_europe_1km_daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "swi_global_12.5km_10daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "swi_global_12.5km_10daily_v4",
+          "component": "Global"
+        },
+        {
+          "id": "swi_global_12.5km_daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "swi_global_12.5km_daily_v4",
+          "component": "Global"
+        }
+      ],
       "lp_datasets": [
         "Soil Water Index Time Series 2007-present (discrete global grid), global, daily, version 4",
         "Soil Water Index 2007-2025 (raster 12.5 km), global, 10-daily – version 3 **SUPERSEDED**",
@@ -1464,6 +1829,24 @@
         "clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1",
         "clms_ua_street-tree-layer_europe_V005ha_3yearly_v1"
       ],
+      "cdse_datasets": [
+        {
+          "id": "clms_ua_building-height_europe_10m_3yearly_v1",
+          "component": "Priority Area"
+        },
+        {
+          "id": "clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1",
+          "component": "Priority Area"
+        },
+        {
+          "id": "clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1",
+          "component": "Priority Area"
+        },
+        {
+          "id": "clms_ua_street-tree-layer_europe_V005ha_3yearly_v1",
+          "component": "Priority Area"
+        }
+      ],
       "lp_datasets": [
         "Urban Atlas Land Cover/Land Use 2018 (vector), Europe, 3-yearly",
         "Urban Atlas Land Cover/Land Use 2012 (vector), Europe, 6-yearly",
@@ -1572,6 +1955,140 @@
         "ndvi_global_300m_10daily_v3",
         "npp_global_300m_10daily_v1",
         "npp_global_300m_10daily_v2"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "ba_global_300m_daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "ba_global_300m_daily_v4",
+          "component": "Global"
+        },
+        {
+          "id": "ba_global_300m_monthly_v3",
+          "component": "Global"
+        },
+        {
+          "id": "ba_global_300m_monthly_v4",
+          "component": "Global"
+        },
+        {
+          "id": "dmp_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "dmp_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "dmp_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "fapar_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "fapar_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "fapar_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "fcover_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "fcover_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "fcover_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "gdmp_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "gdmp_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "gdmp_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "gpp_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "gpp_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lai_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lai_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lai_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lsp_global_300m_yearly_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lsp_global_300m_yearly_v2",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi-lts_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi-lts_global_1km_10daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi-sts_global_1km_10daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi_global_1km_10daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "ndvi_global_300m_10daily_v3",
+          "component": "Global"
+        },
+        {
+          "id": "npp_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "npp_global_300m_10daily_v2",
+          "component": "Global"
+        }
       ],
       "lp_datasets": [
         "Dry Matter Productivity 2014-present (raster 300 m), global, 10-daily – version 2",
@@ -1925,7 +2442,7 @@
     {
       "name": "Water Extent",
       "category": "Bio-geophysical Variables",
-      "component": "Pan-European",
+      "component": "Global",
       "total": 22,
       "on_cdse": 22,
       "pct": 100,
@@ -1965,6 +2482,96 @@
         "wb_global_300m_monthly_v2",
         "wl-lakes_global_vector_daily_v2",
         "wl-rivers_global_vector_daily_v2"
+      ],
+      "cdse_datasets": [
+        {
+          "id": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_water-cover-duration_europe_laea_100m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_water-cover-duration_europe_laea_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1",
+          "component": "Pan-European"
+        },
+        {
+          "id": "lie_baltic_250m_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lie_europe_250m_daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lie_global_500m_daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lie_northernhemisphere_500m_daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lwq-nrt_global_100m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lwq-nrt_global_100m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lwq-nrt_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "lwq-nrt_global_300m_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "lwq-reproc_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "wb_global_100m_monthly_v1",
+          "component": "Global"
+        },
+        {
+          "id": "wb_global_1km_10daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "wb_global_300m_10daily_v1",
+          "component": "Global"
+        },
+        {
+          "id": "wb_global_300m_monthly_v2",
+          "component": "Global"
+        },
+        {
+          "id": "wl-lakes_global_vector_daily_v2",
+          "component": "Global"
+        },
+        {
+          "id": "wl-rivers_global_vector_daily_v2",
+          "component": "Global"
+        }
       ],
       "lp_datasets": [
         "Lake Water Quality 2024-present (raster 100 m), global, 10-daily – version 2",
@@ -2202,6 +2809,7 @@
       "url": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/",
       "cdse_product_types": [],
       "cdse_dataset_ids": [],
+      "cdse_datasets": [],
       "lp_datasets": [
         "Water and Wetness status 2018 (raster 10 m and 100 m), Europe, 3-yearly",
         "Water and Wetness status 2015 (raster 20 m and 100 m), Europe, 3-yearly"
@@ -2210,5 +2818,5 @@
     }
   ],
   "changes_since_last_week": [],
-  "odata_delta": 60713
+  "odata_delta": 61207
 }
