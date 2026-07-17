@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-16T12:22:22.620348Z",
+  "scraped_at": "2026-07-17T04:12:16.364462Z",
   "version": 3,
   "portfolio": {
     "total_datasets": 250,
@@ -7,7 +7,7 @@
   },
   "cdse": {
     "total_dataset_ids": 143,
-    "total_products_odata": 8173113,
+    "total_products_odata": 8212277,
     "total_stac_collections": 219,
     "total_openeo_collections": 63,
     "product_type_count": 30
@@ -1165,7 +1165,7 @@
     {
       "name": "Snow",
       "category": "Bio-geophysical Variables",
-      "component": "Global",
+      "component": "Pan-European",
       "total": 11,
       "on_cdse": 11,
       "pct": 100,
@@ -1925,7 +1925,7 @@
     {
       "name": "Water Extent",
       "category": "Bio-geophysical Variables",
-      "component": "Global",
+      "component": "Pan-European",
       "total": 22,
       "on_cdse": 22,
       "pct": 100,
@@ -2210,5 +2210,5 @@
     }
   ],
   "changes_since_last_week": [],
-  "odata_delta": 21549
+  "odata_delta": 60713
 }
