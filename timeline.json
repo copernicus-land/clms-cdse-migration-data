@@ -1,0 +1,121 @@
+{
+  "type": "odata_timeline",
+  "days": 14,
+  "start": "2026-07-21",
+  "end": "2026-08-03",
+  "history": [
+    {
+      "date": "2026-07-21",
+      "scraped_at": "2026-07-21T06:00:00Z",
+      "total_products_odata": 8446445,
+      "odata_delta": 24810,
+      "ingested_on_cdse": 143,
+      "groups_with_data": 12
+    },
+    {
+      "date": "2026-07-22",
+      "scraped_at": "2026-07-22T06:00:00Z",
+      "total_products_odata": 8474621,
+      "odata_delta": 28176,
+      "ingested_on_cdse": 143,
+      "groups_with_data": 12
+    },
+    {
+      "date": "2026-07-23",
+      "scraped_at": "2026-07-23T06:00:00Z",
+      "total_products_odata": 8498788,
+      "odata_delta": 24167,
+      "ingested_on_cdse": 143,
+      "groups_with_data": 12
+    },
+    {
+      "date": "2026-07-24",
+      "scraped_at": "2026-07-24T06:00:00Z",
+      "total_products_odata": 8518269,
+      "odata_delta": 19481,
+      "ingested_on_cdse": 144,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-07-25",
+      "scraped_at": "2026-07-25T06:00:00Z",
+      "total_products_odata": 8538085,
+      "odata_delta": 19816,
+      "ingested_on_cdse": 144,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-07-26",
+      "scraped_at": "2026-07-26T06:00:00Z",
+      "total_products_odata": 8563209,
+      "odata_delta": 25124,
+      "ingested_on_cdse": 144,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-07-27",
+      "scraped_at": "2026-07-27T06:00:00Z",
+      "total_products_odata": 8584082,
+      "odata_delta": 20873,
+      "ingested_on_cdse": 146,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-07-28",
+      "scraped_at": "2026-07-28T06:00:00Z",
+      "total_products_odata": 8610611,
+      "odata_delta": 26529,
+      "ingested_on_cdse": 146,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-07-29",
+      "scraped_at": "2026-07-29T06:00:00Z",
+      "total_products_odata": 8635966,
+      "odata_delta": 25355,
+      "ingested_on_cdse": 146,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-07-30",
+      "scraped_at": "2026-07-30T06:00:00Z",
+      "total_products_odata": 8657795,
+      "odata_delta": 21829,
+      "ingested_on_cdse": 148,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-07-31",
+      "scraped_at": "2026-07-31T06:00:00Z",
+      "total_products_odata": 8684860,
+      "odata_delta": 27065,
+      "ingested_on_cdse": 148,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-08-01",
+      "scraped_at": "2026-08-01T06:00:00Z",
+      "total_products_odata": 8706417,
+      "odata_delta": 21557,
+      "ingested_on_cdse": 148,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-08-02",
+      "scraped_at": "2026-08-02T06:00:00Z",
+      "total_products_odata": 8733803,
+      "odata_delta": 27386,
+      "ingested_on_cdse": 148,
+      "groups_with_data": 13
+    },
+    {
+      "date": "2026-08-03",
+      "scraped_at": "2026-08-03T06:00:00Z",
+      "total_products_odata": 8753751,
+      "odata_delta": 19948,
+      "ingested_on_cdse": 148,
+      "groups_with_data": 13
+    }
+  ],
+  "total_growth": 307306
+}
